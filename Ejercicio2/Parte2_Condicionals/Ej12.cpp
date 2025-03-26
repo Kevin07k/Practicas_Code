@@ -12,6 +12,7 @@ int main(){
     int level_house_testigo;
     cin>>color_house_testigo>>level_house_testigo;
 
+
     if (color_house1 == color_house_testigo or level_house1 == level_house_testigo) cout<<"1"<<endl;
     if (color_house2 == color_house_testigo or level_house2 == level_house_testigo) cout<<"2"<<endl;
     if (color_house3 == color_house_testigo or level_house3 == level_house_testigo) cout<<"3"<<endl;

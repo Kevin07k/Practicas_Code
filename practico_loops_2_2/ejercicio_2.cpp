@@ -10,8 +10,11 @@ const int INF = 1e9;
 const long long int LLINF = 4e18;
 const double EPS = 1e-9; // very small number
 
-void solve(){
-
+void solve() {
+    string words;
+    while(cin>> words && words != "") {
+        cout<<"["<<words<<"]"<<endl;
+    }
 }
 
 int main(){
