@@ -5,13 +5,23 @@ typedef long long ll;
 typedef pair<int, int> ii;
 typedef vector<int> vi;
 typedef vector<vi> vii;
-typedef vector<bool> vb;
 
 const int INF = 1e9;
 const long long int LLINF = 4e18;
 const double EPS = 1e-9; // very small number
+string binary;
+
+int integer_to_binary(int number){
+    if(number == 0) return 0;
+    binary += to_string(number % 2);
+    return integer_to_binary(number / 2);
+}
 
 void solve(){
+    int number; cin>>number;
+    integer_to_binary(number);
+    reverse(binary.begin(), binary.end());
+    cout<<binary;
 
 }
 
