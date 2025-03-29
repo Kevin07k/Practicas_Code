@@ -12,31 +12,22 @@ const long long int LLINF = 4e18;
 const double EPS = 1e-9; // very small number
 
 void solve() {
-    int N, foto_copyX, foto_copyY;
-    cin >> N >> foto_copyX >> foto_copyY;
-    int copias_act = 0, original = 1, cont_time = 0;
-    if (foto_copyX == foto_copyY) {
-        cont_time += (--N) * foto_copyX;
-    } else {
-        int mayor = max(foto_copyX, foto_copyY);
-        int menor = min(foto_copyX, foto_copyY);
-        double production_oin_tim = ((mayor / menor));
-        cont_time += menor;
-        copias_act ++;
-        while ((production_oin_tim+copias_act) > N) {
-            copias_act += production_oin_tim;
-            cont_time += mayor;
-        }
-        while (copias_act != N) {
-            if (copias_act > 0) {
-
-            } else {
-                copias_act++;
-                cont_time += menor;
-            }
+    int n, x, y;
+    cin>>n>>x>>y;
+    int mini = min(x,y);
+    int maxi = max(x,y);
+    int inicio = mini, final = n * maxi;
+    int possible_result = 0;
+    while (inicio < final) {
+        int mid = (inicio + final) / 2;
+        if (((mid - 1)/x + mid / y) >= n) {
+            final = (mid -1);
+            possible_result = mid;
+        }else {
+            inicio = (mid + 1);
         }
     }
-    cout<<cont_time;
+    cout<<possible_result<<endl;
 }
 
 int main() {
