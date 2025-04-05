@@ -50,7 +50,7 @@ void solve() {
         } else if (opcion == 2) {
             final("Sales sin hacer ruido y escapas con vida. Bien jugado.");
         } else {
-            final("El dragon despierta y te convierte en su almuerzo. Game Over.");
+            final("El dragon despierta y te convierte en su almuerzo. Fin del juego.");
         }
     } else if (opcion == 2) {
         cout << "\nSigues el sendero y ves una casa abandonada. \n";
@@ -86,7 +86,7 @@ void solve() {
         } else if (opcion == 2) {
             final("Subes demasiado y te caes. Fin del juego.");
         } else {
-            final("Mientras descansas, una avalancha te arrastra. Game Over.");
+            final("Mientras descansas, una avalancha te arrastra. Fin del juego.");
         }
     } else {
         cout << "\nCruzas el río y ves un bote abandonado. \n";
@@ -104,7 +104,7 @@ void solve() {
         } else if (opcion == 2) {
             final("Logras nadar y llegas a un lugar seguro. ¡Ganaste!");
         } else {
-            final("Buscas otro camino, pero te pierdes en la selva. Game Over.");
+            final("Buscas otro camino, pero te pierdes en la selva. Fin del juego.");
         }
     }
 }
