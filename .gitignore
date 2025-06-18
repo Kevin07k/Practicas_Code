@@ -3,3 +3,44 @@
 *.idea/
 .autocp
 #Realizar el push en casa solo estamos en el commit asi que pushsea
+
+# CLion build directories
+cmake-build-*/
+build/
+out/
+
+# Ejecutables (Linux - sin extensión)
+ProgramingExersice
+competencia
+
+# Archivos temporales de CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Archivos de debugging
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos objeto
+*.o
+*.ko
+*.obj
+*.elf
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.la
+*.lo
+*.lai
