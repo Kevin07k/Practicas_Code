@@ -1,0 +1,3 @@
+D:/Practicas_code/cmake-build-debug/CMakeFiles/competencia.dir
+D:/Practicas_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Practicas_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

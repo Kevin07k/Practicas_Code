@@ -1,0 +1,5 @@
+*.vscode/
+*.exe
+*.idea/
+.autocp
+#Realizar el push en casa solo estamos en el commit asi que pushsea
