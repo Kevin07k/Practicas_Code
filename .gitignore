@@ -1,46 +1,42 @@
-*.vscode/
-*.exe
-*.idea/
-.autocp
-#Realizar el push en casa solo estamos en el commit asi que pushsea
+### C++ template
+# Prerequisites
+*.d
 
-# CLion build directories
-cmake-build-*/
-build/
-out/
-
-# Ejecutables (Linux - sin extensión)
-ProgramingExersice
-competencia
-
-# Archivos temporales de CMake
-CMakeCache.txt
-CMakeFiles/
-CMakeScripts/
-Testing/
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps/
-
-# Archivos de debugging
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Archivos objeto
+# Compiled Object files
+*.slo
+*.lo
 *.o
-*.ko
 *.obj
-*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
 *.so
-*.so.*
 *.dylib
 *.dll
-*.a
-*.la
-*.lo
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
 *.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*..autocp
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
